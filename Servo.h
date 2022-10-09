@@ -26,7 +26,7 @@ SOFTWARE.
 #ifndef MBED_SERVO_H
 #define MBED_SERVO_H
 
-#include <mbed.h>
+#include "mbed.h"
 
 /**
  * The following parameters are servo specific but should work with most servos. They can be changed without modifing this header using the following code

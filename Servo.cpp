@@ -1,4 +1,4 @@
-#include <Servo.h>
+#include "Servo.h"
 
 #define MAP(v, minIn, maxIn, minOut, maxOut) ((v - minIn) * (maxOut - minOut) / (maxIn - minIn) + minOut)
 #define DEG_TO_PULSE(d) MAP(d, SERVO_MIN_DEGREE, SERVO_MAX_DEGREE, SERVO_MIN_PULSE, SERVO_MAX_PULSE)
